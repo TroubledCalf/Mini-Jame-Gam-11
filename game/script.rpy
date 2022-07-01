@@ -38,15 +38,16 @@ label start:
     "You walk on over to the mailroom, and notice a small package thats hidden beneath your mailbag."
     "It has no return address and is in plain packaging. There's a note attached to the outside that reads:"
     Character("Package") "To my dearly beloved, I will always treasure the day you came for me. Here is my greatest possession: the tool to my heart. - F."
+
     "Do you find the packages owner?"
     menu:
         "Don't bother":
             "You don't get paid enough to hunt down randos."
-            "BAD END"
+            "BAD END 1 Minimum Wage"
             return
         "Find Owner":
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
-        
+
 
     return

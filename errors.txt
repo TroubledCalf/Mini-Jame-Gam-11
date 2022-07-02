@@ -2,23 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/drunkards.rpy", line 33: expected statement.
+File "game/meet_cute.rpy", line 158: is not terminated with a newline. (Check strings and parenthesis.)
 (Perhaps you left out a " at the end of the first line.)
-    "On your walk, you stroll by the convention center where you met Shrek.
-        "{i}If only... {/i}"
-                    ^
-        "Tired and defeated, you collapse on the street, but noone notices."
-    
-        jump drunks
-    
-    
-    label drunks:
-        if drunks:
-            "As your vision fades to black, you hear murmurs of \"druggie\" and \"drunkard.\""
-
-File "game/drunkards.rpy", line 45: expected statement.
-    else:
-        ^
+            S "Yeah!""
 
 Ren'Py Version: Ren'Py 7.5.0.22062402
-Fri Jul  1 18:23:21 2022
+Sat Jul  2 11:28:26 2022

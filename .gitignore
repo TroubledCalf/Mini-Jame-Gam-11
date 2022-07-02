@@ -8,6 +8,7 @@ __pycache__/
 
 # Ren'Py log files
 log.txt
+errors.txt
 
 # Distribution / packaging
 .Python

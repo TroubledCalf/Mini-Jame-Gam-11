@@ -35,12 +35,12 @@ label cringe:
 
     menu:
         "Fix it":
-        "You never intended to hurt your one true love, but god that stupid outfit just, ugh anyway you need to do some damage control."
-        Y "Um…No no I like it, I just think that a donkey doesn’t suit you as much as something more majestic, like uh Stallion yeah that’s it! You’d look much better as a cool horse, much better than a stinky donkey anyway"
-        jump stabbed
+            "You never intended to hurt your one true love, but god that stupid outfit just, ugh anyway you need to do some damage control."
+            Y "Um…No no I like it, I just think that a donkey doesn’t suit you as much as something more majestic, like uh Stallion yeah that’s it! You’d look much better as a cool horse, much better than a stinky donkey anyway"
+            jump stabbed
 
         "Just leave":
-        jump stabbed
+            jump stabbed
 
 label stabbed:
     "You smile and laugh rubbing the back of your head, whew looks like you saved that one!"

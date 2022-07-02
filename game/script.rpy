@@ -57,7 +57,7 @@ label start:
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
 
-    "When you finally end your long shift, you head to your \$2 shabby apartment.
+    "When you finally end your long shift, you head to your \$2 shabby apartment."
     "It's Friday night, so there are a lot of couples out. Living in a large city, you see them all the time, but you can’t help but feel hurt and lonely."
     "You're getting old."
     "Your mother does a good job of reminding you that your window to find love is closing."

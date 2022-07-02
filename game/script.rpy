@@ -57,15 +57,7 @@ label start:
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
 
-    "Zaddy Shrek"
-    Y "You say this"
-    S "Nice to meet you, %(player_name)s"
-
-    menu:
-        "Furry denier":
-            "Some text"
-        "Another label":
-            "Different text"
+    "When you finally end your long shift, you head to your \$2 shabby apartment."
 
 
     #just to test the possible furry route

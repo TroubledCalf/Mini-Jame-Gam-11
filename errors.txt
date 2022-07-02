@@ -2,9 +2,23 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Find Owner"
-                ^
+File "game/drunkards.rpy", line 33: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    "On your walk, you stroll by the convention center where you met Shrek.
+        "{i}If only... {/i}"
+                    ^
+        "Tired and defeated, you collapse on the street, but noone notices."
+    
+        jump drunks
+    
+    
+    label drunks:
+        if drunks:
+            "As your vision fades to black, you hear murmurs of \"druggie\" and \"drunkard.\""
+
+File "game/drunkards.rpy", line 45: expected statement.
+    else:
+        ^
 
 Ren'Py Version: Ren'Py 7.5.0.22062402
-Fri Jul  1 11:42:51 2022
+Fri Jul  1 18:23:21 2022

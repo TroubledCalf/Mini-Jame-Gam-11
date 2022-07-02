@@ -11,12 +11,17 @@ init python:
         elif event == "slow_done":
             renpy.sound.stop(channel="blips")
 
-#defaults
+#trackers
+define hearts = 0
+define furry = False
+define drunks = False
 
 #define characters
 define S = Character("Shrek")
 define player_name = ""
 define Y = Character(player_name)
+define B = Character("Drunk Rando")
+define SN = Character("Shrek's Note")
 
 
 #define misc
@@ -33,7 +38,7 @@ label start:
     $ Y = Character(player_name)
 
     "After changing into your uniform, you head on over to the mailroom."
-    "This whole 'mailman' job is grueling."
+    "This whole \"mailman\" job is grueling."
     "You have to wake up early every day and lug a heavy bag around New York City."
     "You walk on over to the mailroom, and notice a small package thats hidden beneath your mailbag."
     "It has no return address and is in plain packaging. There's a note attached to the outside that reads:"
@@ -43,11 +48,16 @@ label start:
     menu:
         "Don't bother":
             "You don't get paid enough to hunt down randos."
-            "BAD END 1 Minimum Wage"
+            "BAD END: Minimum Wage"
             return
         "Find Owner":
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
+
+
+
+    #just to test the possible furry route
+    jump insist_furry
 
 
     return

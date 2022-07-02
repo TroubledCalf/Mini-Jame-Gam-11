@@ -26,7 +26,7 @@ label train:
             "The silence returns."
             "You open your mouth to continue the conversation, but the train grinds to a halt."
 
-            "Stare at him lovingly":
+            "Stare at him lovingly"
             "He notices your stare, and his eyes dart around."
             "Idiot, you have clearly made him uncomfortable."
             "Uhhh...do you want a picture...or...?"

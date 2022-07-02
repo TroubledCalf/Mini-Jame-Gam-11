@@ -40,3 +40,13 @@ label Try_to_fix_it:
 
 label stabbed:
     "You smile and laugh rubbing the back of your head, whew looks like you saved that one!"
+    "So you thought, but suddenly without warning you feel a sudden sharp pain in your chest."
+Y "Wh-what….?"
+"You say in pure shock and Horror as you see a sharp object protruding from your chest"
+"Shrek had impaled you upon the sword you just returned to him, how could he????"
+"He looks at you with pure disgust, a far cry from the warm bear you had come to know oh so well."
+S "You insulted my best friend, you disgusting Onion, HE DIED SAVING MY LIFE AND YOU BLOODY INSULT HIM!!!"
+"Suddenly everything goes black, Shrek, fueled by pure rage, ripped the sword out and cut you into unrecognizable pieces"
+"Bad End Dice to Meat you"
+
+return

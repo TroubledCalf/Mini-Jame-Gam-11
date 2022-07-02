@@ -11,7 +11,10 @@ init python:
         elif event == "slow_done":
             renpy.sound.stop(channel="blips")
 
-#trackers
+#sound files
+define audio.default_theme = "./audio/Out_n_about.mp3"
+
+#tracker varibles
 define hearts = 0
 define furry = False
 define drunks = False
@@ -54,6 +57,7 @@ label start:
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
 
+    "When you finally end your long shift, you head to your \$2 shabby apartment."
 
 
     #just to test the possible furry route

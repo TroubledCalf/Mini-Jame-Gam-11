@@ -32,7 +32,7 @@ define SN = Character("Shrek's Note")
 define config.character_callback = beepy_voice
 
 label start:
-
+    show screen romance_bar
     #opening mailroom
     Y "UGHHHHHH"
     Y "My back hurts"

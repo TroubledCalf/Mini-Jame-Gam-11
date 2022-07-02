@@ -48,7 +48,13 @@ label insist_furry:
 
     "His tears and snot are getting your work shirt dirty, but you don't mind."
     "[placeholder]"
-    return
+    S "Thank you, "
+
+    menu:
+        "Giggle":
+            jump giggle
+        "Cringe":
+            jump cringe
 
 
 

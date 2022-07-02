@@ -57,7 +57,57 @@ label start:
             "Determined to find the owner, you ask around the office if it belongs to anyone, as a dutiful mailman would."
             "Noone recognizes it, so you place it in your locker to take home after your shift."
 
-    "When you finally end your long shift, you head to your \$2 shabby apartment."
+    "When you finally end your long shift, you head to your \$2 shabby apartment.
+    "It's Friday night, so there are a lot of couples out. Living in a large city, you see them all the time, but you can’t help but feel hurt and lonely."
+    "You're getting old."
+    "Your mother does a good job of reminding you that your window to find love is closing."
+    Character("Mother") "The only people available when you get old are divorcees and creeps."
+    "You can hear her scoffing at you even in your flashback."
+    "However, there is some glimmer of hope."
+    "Tomorrow you have plans; tomorrow you’re going to..."
+    "COMIC CON!!!"
+    "Cheered up by this fact, you skip all the way home, ignoring all the judging stares."
+
+    #fade to black
+    #show your apartment
+    "You wake up bright and early ready to take on the day."
+    "You've spent months procuring the perfect cosplay."
+    "It took a lot of green paint. It's heavy, too."
+    "You admire yourself in the mirror."
+    "Your Shrek cosplay is perfect."
+    "You're too short to accurately capture his beauty, but otherwise, you have the look down pat."
+    "You have his signature green, his striking ears, and his sexy dad bod."
+    "Excited and proud of your work, you merrily leave your apartment and head towards the subway."
+
+    #show subway
+    "There you see him."
+    "Another perfect cosplay,"
+    "Shrek as Fiona."
+    "You are flustered and accidentally make eye contact on the train."
+    "Once your eyes lock a second time you finally gain the courage to walk up to him."
+    Y "H-hello, I am %(player_name)s, also known as Mailman-kun. uWu"
+    S "Nice cosplay, %(player_name)s."
+    "He smiles gently at you."
+    S "How long did it take?"
+    Y "Uhhhhh...t-three months"
+    "His eyes go wide, but then he regains his gentle smile."
+    S "Wow. That's some real dedication. I'm honored."
+    Y "Y-yeah."
+    "There's an awkward silence, and the Shrek/Fiona cosplayer scratches his head."
+    menu:
+        "Break the awkward silence":
+            $ hearts += 1
+            Y "Where did you get that wig from? It looks so good!"
+            "He lights up."
+            S "Oh, this old thing? I bought some cheap hair and bleached and dyed it myself."
+            
+        "Stare at him lovingly":
+            "He notices your stare, and his eyes dart around."
+            "Idiot, you have clearly made him uncomfortable."
+            "Uhhh...do you want a picture...or...?"
+            Y "AH! I'm so sorry! I-i didn't mean to."
+            "The two of you return to the silence."
+
 
 
     #just to test the possible furry route

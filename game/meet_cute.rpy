@@ -1,7 +1,7 @@
 label train:
     #scene train
     "There you see him."
-    #show fiona shrek neutral
+    show shrek_cosplay at enter_m
     "Another perfect cosplay,"
     "Shrek as Fiona."
     "You are flustered and accidentally make eye contact on the train."

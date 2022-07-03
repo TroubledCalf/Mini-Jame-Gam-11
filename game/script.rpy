@@ -39,7 +39,7 @@ label start:
     #opening mailroom
 
     Y "UGHHHHHH!"
-    Y "My back hurts."
+    Y "My back hurts." with vpunch
     "You grumpily waltz over to your locker."
 
     $ player_name = renpy.input("Each locker has a name tag and yours says:")
@@ -74,7 +74,8 @@ label start:
     "COMIC CON!!!"
     "Cheered up by this fact, you skip all the way home, ignoring all the judging stares."
 
-    #fade to black
+    show blackscreen with dissolve
+    pause(1)
     #show your apartment
     "You wake up bright and early ready to take on the day."
     "You've spent months procuring the perfect cosplay."
@@ -86,7 +87,7 @@ label start:
     "Excited and proud of your work, you merrily leave your apartment and head towards the subway."
 
     jump train
-    #goes to passed_convention.rpy
+    #goes to meet_cute.rpy
 
 
     return

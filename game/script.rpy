@@ -35,9 +35,16 @@ label start:
     show screen romance_bar
 
     #opening mailroom
+    show shrek_base at enter_l:
+        align(1.0, 1.0)
     Y "UGHHHHHH"
+    hide shrek_base
+    show shrek_blush at exp
     Y "My back hurts"
+    hide shrek_blush
+    show shrek_base at exp
     "You grumpily waltz over to your locker."
+    hide shrek_base at leave
 
     $ player_name = renpy.input("Each locker has a name tag and yours says:")
     $ Y = Character(player_name)

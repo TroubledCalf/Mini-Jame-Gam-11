@@ -1,15 +1,20 @@
 #character ATL
-transform enter:
+transform enter_l:
     subpixel True
-    ease 0.3 ypos +20
-    ease 0.1 ypos -20
+    alpha 0.0
+    xpos -200
+    parallel:
+        ease 1.0 xpos 100
+        ease 0.1 alpha 1.0
 
 transform leave:
     subpixel True
-    xalign 1.0
-    ease 0.4 xalign 0.0
+    alpha 1.0
+    parallel:
+        ease 0.5 xpos -400
+        ease 0.1 alpha 0.0
 
-transform expression:
+transform exp:
     subpixel True
-    xalign 1.0
-    ease 0.4 xalign 0.0
+    ease 0.1 ypos +20
+    ease 0.1 ypos -20

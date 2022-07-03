@@ -1,4 +1,4 @@
-screen romance_bar:
+screen romance_bar():
 
     if hearts == 0:
         add "gui/romance_bar_0.png":

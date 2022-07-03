@@ -50,7 +50,7 @@ label drunks:
         Y "{i}Is this how it feels to be alone?{/i}"
     else:
         "As your vision fades to black, you catch a glimpse of a passing cab. The ad on top is an anti drinking and driving campaign."
-        Y "{i}Has is already been that long since that fateful night?"
+        Y "{i}Has is already been that long since that fateful night?{/i}"
         "The night you walked away from him, and he chased after you. He met the same fate his beloved Fiona did, hit by a couple of drunks in a hit and run."
         "You've long since lost the blood-stained note he had in his hand, but you still remember what it said."
         SN "For the first time in a long time, someone made me feel whole again."

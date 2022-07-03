@@ -27,11 +27,15 @@ label good_route:
     "Despite doing better you can still feel the pain seeping through his warm smile."
     "You take a seat on his nice couch, and he plops down right next to you."
     "He places one of his MASSIVE ogre hands upon your back."
-    "Ooooooooo. He's ~touching~ you."
+    "Ooooooooo. He's ~touching~ you. Awoooooga"
     "You feel your face get hot."
     S "So about yesterday, I think it’s only right that you know who that package was from and why it affected me so deeply."
     #show shrek_reminisce
-
-
+    "He tells you how him and Fiona were beginning to hvae a rocky marriage before she died and that she must've had that sword sent to try and remind him of the good times"
+    Y "I-I had no idea..I'm so s-"
+    "Shrek cuts you off with a big bear hug"
+    S "Let me finish you dummy, I'm not upset anymore, cause now I've got you and well after all this...I-I think I love you!!"
+    "You don't know what to say, you obviously love him too, but eith no way to express it....Ah who am I kidding you kiss him on the lips!! A true sign of affection"
+    "After that Day you quit your shitty job amd live with Shrek, he provides for you and makes you the happiest Ex Mailman alive. You are blessed to have met him"
     "GOOD END: You're a Lifesaver"
     return

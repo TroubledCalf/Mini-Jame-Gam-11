@@ -53,7 +53,7 @@ label drunks:
         SN "It was like meeting an old friend that I hadn't seen in years."
         SN "After losing Fiona and losing contact with my children, that small talk we had really changed my mind."
         SN "I made sure before I left that I called my children to remind them how proud I am of them and how much I love them."
-        SN "For years, I was afraid that they would reject me again Baseball, but because of you, I'm not afraid anymore."
+        SN "For years, I was afraid that they would reject me again, but because of you, I'm not afraid anymore."
         SN "I feel as though I'm on top of the world, but I don't want to risk losing you, too."
         SN "I've lost so much already, so please, I'm begging you. Come back to me."
         "Even though you knew him for just a day, you were able to be a shining light in darkness for him. You meant so much to him."

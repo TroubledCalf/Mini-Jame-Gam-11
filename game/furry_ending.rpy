@@ -104,6 +104,14 @@ label kidnap:
     scene blackscreen with Dissolve(2)
     pause(1)
     "True End: My One and Only"
+    window hide
+    show credit1 at credit
+    pause(28)
+    hide credit1 with dissolve
+    show credit2
+    pause(5)
+    hide credit2 with dissolve
+    pause(1)
     return
 
 label cringe:
@@ -130,6 +138,7 @@ label stabbed:
     "You smile and laugh rubbing the back of your head, whew looks like you saved that one!"
     stop music
     show red at stab_ef
+    play music tragedy_of_shrek fadein(1)
     "So you thought, but suddenly without warning you feel a sudden sharp pain in your chest."
     hide red with dissolve
     show red at stab_ef

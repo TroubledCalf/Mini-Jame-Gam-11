@@ -15,12 +15,14 @@ label intervene_drunks:
     "It doesn't matter, though. You feel good. You don't know what could have happened if you didn't intervene."
 
     "This feeling is fleeting, however, and soon guilt sets in."
+    scene blackscreen with Dissolve(2)
     "Head heavy, you return home and prepare for work the next day."
 
     jump drunks
 
 
 label leave_drunks:
+    scene blackscreen with dissolve
     "Once you get to work, your mind is all foggy. You can only think about what you should have said."
     "You should’ve comforted him better."
     "You shouldn’t have been so squeamish."
@@ -30,10 +32,13 @@ label leave_drunks:
     "This also bothers you, and it starts to affect your work. Your boss notices your change and calls you into their office one day..."
     "..."
     "Months go by. You’ve been in and out of shelters and bouncing from friend’s couches for months now."
+    scene city with dissolve
     "Right now you’re wandering around NYC looking for a place to spend the night."
+    scene convention_center with dissolve
     "On your walk, you stroll by the convention center where you met Shrek."
     Y "{i}If only...{/i}"
-    "Tired and defeated, you collapse on the street, but noone notices."
+    "Tired and defeated, you collapse on the street, but noone notices." with vpunch
+    scene blackscreen with Dissolve(2)
 
     jump drunks
 
@@ -62,5 +67,9 @@ label drunks:
 
     "You never even delivered that weird package you found."
     "What happened to it anyway?"
+    stop music fadeout 1
+    hide screen romance_bar with Dissolve(1)
+    scene blackscreen with Dissolve(2)
+    pause(1)
     "BAD END: Consumed by Guilt"
     return

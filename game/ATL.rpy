@@ -40,9 +40,7 @@ transform enter_r:
 
 transform exp:
     subpixel True
-    ypos 370
-    linear 0.1 ypos 390
-    linear 0.1 ypos 370
+    alpha 1.0
 
     on hide:
         parallel:
@@ -117,3 +115,8 @@ transform stab_ef:
     linear 0.2 alpha 0.8
     linear 0.4 alpha 0.5
     linear 1.0 alpha 0.0
+
+transform credit:
+    yalign 0.0
+    pause(3)
+    linear 25.0 yalign 1.0

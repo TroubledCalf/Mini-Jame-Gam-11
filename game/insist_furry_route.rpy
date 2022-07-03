@@ -9,6 +9,7 @@ label insist_furry:
     menu:
         "Blame him for her death":
             Y "Yeah, but..."
+            $ hearts -= 5
             show shrek_crying as shrek_base
             "He breaks down even further."
             "Oops."
@@ -36,6 +37,7 @@ label insist_furry:
 
             menu:
                 "Apologize":
+                    $ hearts -= 5
                     Y "Listen, I'm sorry. It's just that you were dirtying my work shirt with your snot, and its kinda gross."
                     show shrek_angry as shrek_base at exp
                     S "Gross?"

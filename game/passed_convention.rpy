@@ -19,9 +19,7 @@ label strip_club:
             $ hearts -= 1
             S "Eattt."
         "Eat":
-            "You smile and take a {nw}"
-            with vpunch
-            "You smile and take a {fast}big munch from your borger with EXTRA ONIONS."
+            "You smile and take a big munch from your borger with EXTRA ONIONS."
             $ hearts += 1
 
     "After a few more Jack and Cokes, the cosplayer begins slurring his speech a bit."

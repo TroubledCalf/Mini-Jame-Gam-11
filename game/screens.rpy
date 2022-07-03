@@ -563,7 +563,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nShrek Dating Simulator is a game made for Jame Gam, this game is made by a team of 5 people.\nCoder: Nodel#6969,Expert Soy Boy#0595, and IceIceGhosty#1037\nWriter: Expert Soy Boy#0595, and IceIceGhosty#1037\nArtist: Jerreau#5819, and pasaroll#9096\nComposer: Jerreau#5819\n\nWe hope you had fun playing this little game we made~")
 
 
 style about_label is gui_label

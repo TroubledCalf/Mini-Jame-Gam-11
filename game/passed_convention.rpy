@@ -13,6 +13,14 @@ label strip_club:
     "You happen to notice that it's a black card."
     "ADD MORE DIALOGUE HERE TO DEVELOP THEIR RELATIONSHIP"
     #have the player blance between eating and talking to give/remove more hearts. still max 3 appear on screen
+    Menu:
+        "Talk"
+        Y "This is pretty good food right?"
+        $ hearts += 0
+        "Eat"
+        "You smile and take a big munch from your borger with EXTRA ONIONS"
+        $ hearts += 1
+
 
     "After a few more Jack and Cokes, the cosplayer begins slurring his speech a bit."
     "He slams his fist down on the bar, knocking the remaining wings to the floor."
@@ -126,5 +134,5 @@ label strip_club:
         "...sob."
         "You slowly drift to sleep."
         "You never wake up."
-        "BAD END: Cry Baby"
+        "BAD END: Alone on a Friday Night"
         return

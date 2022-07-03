@@ -77,6 +77,7 @@ label apartment_beginning:
             "BAD END: Blind to the Truth"
             
             return
+
         "He wipes a tear from his cheek."
         #show shrek_base
         S "Nothing...you just remind me of someone I used to know."

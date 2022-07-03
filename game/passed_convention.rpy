@@ -8,10 +8,10 @@ label strip_club:
     S "One platter of wings, extra spicy, please."
     Y "{i}Extra spicy? You can't handle spice!{/i}"
     Y "{i}Well, you can't handle anything. You're kinda like a widdle baby.{/i}"
+    Y "I'll have a burger, please."
     S "Oh, and 2 Jack and Cokes, please."
     "He hands his card over to the bartender."
     "You happen to notice that it's a black card."
-    "ADD MORE DIALOGUE HERE TO DEVELOP THEIR RELATIONSHIP"
     #have the player blance between eating and talking to give/remove more hearts. still max 3 appear on screen
     menu:
         "Talk":

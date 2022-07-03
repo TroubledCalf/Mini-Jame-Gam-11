@@ -51,7 +51,7 @@ label start:
     "You have to wake up early every day and lug a heavy bag around New York City."
     "You walk on over to the mailroom, and notice a small package thats hidden beneath your mailbag."
     "It has no return address and is in plain packaging. There's a note attached to the outside that reads:"
-    Character("Package") "To my dearly beloved, I will always treasure the day you came for me. Here is my greatest possession: the tool to my heart. - F."
+    "Package" "To my dearly beloved, I will always treasure the day you came for me. Here is my greatest possession: the tool to my heart. - F."
 
     "Do you find the packages owner?"
     menu:
@@ -67,7 +67,7 @@ label start:
     "It's Friday night, so there are a lot of couples out. Living in a large city, you see them all the time, but you can’t help but feel hurt and lonely."
     "You're getting old."
     "Your mother does a good job of reminding you that your window to find love is closing."
-    Character("Mother") "The only people available when you get old are divorcees and creeps."
+    "Mother" "The only people available when you get old are divorcees and creeps."
     "You can hear her scoffing at you even in your flashback."
     "However, there is some glimmer of hope."
     "Tomorrow you have plans; tomorrow you’re going to..."

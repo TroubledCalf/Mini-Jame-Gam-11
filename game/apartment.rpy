@@ -74,10 +74,8 @@ label apartment_beginning:
             Y "{i}Should I have pressured him for an answer?{/i}"
             "Are we really doing this? Of course you should have. He clearly wanted to talk about it."
             "But who knows what could have come of it? I'm just the narrator."
-            "BAD END: idk man ill name this later im tired, y'all."
-            "idk \"socially inept?\""
-            "nah that sounds mean."
-            "idk you figure it out"
+            "BAD END: Blind to the Truth"
+            
             return
         "He wipes a tear from his cheek."
         #show shrek_base

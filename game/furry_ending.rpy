@@ -33,6 +33,9 @@ label giggle:
     "You and Shrek Hang around for a bit heck he even puts his Donkey fur suit on, you of course put on the Dragon Fur suit"
     "out of nowhere he gets down on one knee, he has something very important to ask you so you give him 110 percent of your attention"
     S "%(player_name)s I know we haven't known each other very long, but I really want you to come to a furry convention with me UwU"
+    "You gasp in shock, you never would've dreamed of this day to come, your one true love wants to go to a furry convention, WITH YOU??? Yes Yes 100 times yes! Ah but you need to play it cool"
+    Y "YES YES OMG I WOULD LOVE TO SHREK!"
+    "Nailed it, anyway after a big warm hug you take off! you have to get ready for the con tomorrow after all ;)"
 
 label cringe:
     "You try not to show it, but your face twists into a grimace. He looks hurt."

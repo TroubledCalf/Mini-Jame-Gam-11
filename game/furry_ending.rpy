@@ -24,6 +24,15 @@ label giggle:
     S "Hey stranger!"
     "You giggle and blush. Just the sight of him standing there, a peak male specimen, makes your face hot. As you quickly sort the mail, he continues talking to you."
     "After some top-tier banter, he invites you upstairs again."
+    Y "I have to return my mail bag remeber"
+    S "Oh yeah..."
+    "He seems to scratch the back of his neck, but before you leave he grabs your arm"
+    S "Well what if instead of returning the Mail bag….You stay with me for a bit? You see, I saw how much you loved my donkey costume yesterday. So I bought you a dragon costume!"
+    "You hesitate, but seeing how happy he is to have gotten you something so great, you can't help, but stay!"
+    Y "Oh well okay! I can't say no to you after all!"
+    "You and Shrek Hang around for a bit heck he even puts his Donkey fur suit on, you of course put on the Dragon Fur suit"
+    "out of nowhere he gets down on one knee, he has something very important to ask you so you give him 110 percent of your attention"
+    S "%(player_name)s I know we haven't known each other very long, but I really want you to come to a furry convention with me UwU"
 
 label cringe:
     "You try not to show it, but your face twists into a grimace. He looks hurt."

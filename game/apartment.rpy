@@ -1,4 +1,6 @@
 label apartment_beginning:
+    stop music
+    play music ogre_tears fadein 1.0
     "You follow him to the elevator. He hits the top button."
     #scene nice_apartment
     "He leads you down a pristine hallway, and he opens the door to his apartment."
@@ -75,32 +77,50 @@ label apartment_beginning:
             "Are we really doing this? Of course you should have. He clearly wanted to talk about it."
             "But who knows what could have come of it? I'm just the narrator."
             "BAD END: Blind to the Truth"
-            
             return
+    "He wipes a tear from his cheek."
+    #show shrek_base
+    S "Nothing...you just remind me of someone I used to know."
+    Y "Tell me about it. I may not be able to do much, but at the very least talking about it can ease the pain."
+    "He shakes his head."
+    S "I don’t want to bother you with my problems, ha."
+    Y "It's ok. I won't be bothered."
+    "He sighs."
+    S "You sure?"
+    Y "Positive."
+    #show shrek_sad
+    S "The night Fiona died was eight years ago."
+    S "She was killed in a hit and run. The police never found the culprits."
+    #show shrek_crying
+    S "It's all my fault."
+    S "I should have gone with her that day, but instead I was selfish and slept in."
+    S "I can't even give her a proper memorial because I lost the sword I used to rescue her years ago."
+    "Could that sword have been in that teeny package you found at work? It was signed by a mysterious \"F\" after all."
+    Y "Excuse me. I think I have something that belongs to you."
+    #show shrek_base
+    "You race to the post office."
+    #scene office
+    "You get there and check your locker. It's right where you left it!"
+    "You snatch the package and race back towards Shrek's apartment."
+    #scene nice_apartment
+    "He's waiting for you in the lobby."
+    "You both take the elevator and go to his apartment."
+    #show package
+    "You reveal the comically small package, and place it on the kitchen counter."
+    "You both hover over it, and you look up at Shrek expectantly."
+    #show sword
+    "He opens it slowly and pulls out a long sword."
+    Y "{i}How did that fit in that tiny box?{/i}"
+    #show shrek_crying
+    "He inspects the hilt and bursts into tears again."
+    S "I-it's the sword. After so many years, I finally have it."
+    "He looks up at you and embraces you tenderly."
+    S "Thank you."
+    "He pulls away, taking his warmth with him."
+    S "I think I need to be alone right now. I know this is rude after what you've done for me, but could you leave?"
 
-        "He wipes a tear from his cheek."
-        #show shrek_base
-        S "Nothing...you just remind me of someone I used to know."
-        Y "Tell me about it. I may not be able to do much, but at the very least talking about it can ease the pain."
-        "He shakes his head."
-        S "I don’t want to bother you with my problems, ha."
-        Y "It's ok. I won't be bothered."
-        "He sighs."
-        S "You sure?"
-        Y "Positive."
-        #show shrek_sad
-        S "The night Fiona died was eight years ago."
-        S "She was killed in a hit and run. The police never found the culprits."
-        #show shrek_crying
-        S "It's all my fault."
-        S "I should have gone with her that day, but instead I was selfish and slept in."
-        S "I can't even give her a proper memorial because I lost the sword I used to rescue her years ago."
-        "Could that sword have been in that teeny package you found at work? It was signed by a mysterious \"F\" after all."
-        Y "Excuse me. I think I have something that belongs to you."
-        #show shrek_base
-        "You race to the post office."
-        #scene office
-        "You get there and check your locker. It's right where you left it!"
-        "You snatch the package and race back towards Shrek's apartment."
-        #scene nice_apartment
-        "He's waiting for you in the lobby."
+    menu:
+        "Leave":
+            jump good_route
+        "Insist to stay":
+            jump insist_furry

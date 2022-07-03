@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/meet_cute.rpy", line 158: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-            S "Yeah!""
+File "game/script.rpy", line 47: play requires a file
+    play default_theme
+                      ^
 
 Ren'Py Version: Ren'Py 7.5.0.22062402
-Sat Jul  2 11:28:26 2022
+Sat Jul  2 23:34:55 2022

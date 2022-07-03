@@ -5,4 +5,9 @@ label good_route:
     "God, that fridge is massive."
     "You leave his beautiful apartment and return to your shitty \$2 apartment."
     #scene shabby_apartment
-    
+
+    "That night you lie awake waiting for a call"
+
+
+    "GOOD END: "
+    return

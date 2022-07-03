@@ -31,7 +31,7 @@ label good_route:
     "You feel your face get hot."
     S "So about yesterday, I think it’s only right that you know who that package was from and why it affected me so deeply."
     #show shrek_reminisce
-    
 
-    "GOOD END: yeah, we'll name it later "
+
+    "GOOD END: You're a Lifesaver"
     return

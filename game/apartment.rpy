@@ -12,7 +12,15 @@ label apartment_beginning:
     #show shrek_base
     "You hear a sizzle and slowly the smell wafts towards you. He looks up and smiles."
 
-    #add some dialogue to add/subtract hearts here
+    menu:
+        "Tell him it smells good":
+            $ hearts += 1
+            Y "That smells great!"
+            S "You really think so?"
+            Y "Yeah! I love onions!"
+        "Tell him it smells terrible":
+            $ hearts -= 1
+            Y "Um...could you cook something else? I don't like onions."
 
 
     if hearts >= 3:

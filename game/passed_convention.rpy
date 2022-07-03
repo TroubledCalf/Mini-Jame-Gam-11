@@ -16,7 +16,8 @@ label strip_club:
     menu:
         "Talk":
             Y "This is pretty good food right?"
-            $ hearts += 0
+            $ hearts -= 1
+            S "Eattt."
         "Eat":
             "You smile and take a big munch from your borger with EXTRA ONIONS"
             $ hearts += 1

@@ -177,3 +177,4 @@ label convention:
     Y "{i}Just lil' ol' me.{/i}"
     "You can't even bother to clean off the green makeup. You just let the darkness consume you as you drift to sleep."
     "BAD END: Waste of Space (prlly rename that one)"
+    return

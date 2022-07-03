@@ -36,7 +36,29 @@ label giggle:
     "You gasp in shock, you never would've dreamed of this day to come, your one true love wants to go to a furry convention, WITH YOU??? Yes Yes 100 times yes! Ah but you need to play it cool"
     Y "YES YES OMG I WOULD LOVE TO SHREK!"
     "Nailed it, anyway after a big warm hug you take off! You have to get ready for the con tomorrow after all ;)"
-    return
+
+label kidnap:
+"How could this happen? You just wanted to go to a con with Shrek...but rught before you got into the Center you were knocked out and taken to a dark dank werehouse, you can't see anything, the man's got you blindfolded."
+Y "Let me go!! I need to meet my love at the convention!! let me go you Furists!!"
+F "OI shut ya bleeding mouth you fithy Fur Boy! Don't you make me getcha a Muzzle!"
+"You feel a sharp pain in your side! The Furist just stabbed you, he just leaves the knife there, he has plans for you"
+Y "GAH- AHHHHH! SOMEONE HELP ME PLEASE!!"
+F "WHAT DID I SAY?"
+"His fist collides with your face you feel a tooth fall out of your mouth, you can also taste blood. Is this how your life ends...? You just wish you could see Shrek one more time..."
+"Suddenly a loud bang echoes throughout the werehouse you hear loud booming footsteps charge towards you"
+F "Oi what the H- GAH!"
+"You hear the sound of skin colliding eith skin then some loud crash then suddenly, there's a bright white light and you see"
+S "%(player_name)s Are You alright??? Gah that bastard I can't believe he'd do this to you!!"
+"Shrek Unties you then he places a kiss upon your cheek, his voice was shaky and filled with worry, his eyes are red and puffy almost as if he had been crying. You feel nothing but pain all over your body, but to make matters worse..."
+F "Gah ha ha ha! Touching little reunion, I hate to cut things short, but your little friend there ain't got long left"
+"The Furist laughs as he pulls out a bottle simply labeled Poison"
+S "Wh-what? No No NOOOOOOOOOOO You're lying you Bastardddddddddddddddddddddddddddd!!!!!!!!!!!!!!"
+"Shrek gently puts you down then he charges the guy before he can even defend himself Shrek's hand bursts through his chest Killing him instantly"
+"Shrek fings the lifeless man off of his arm and then wipes his hand off, before running back to you. You look weak, ready to keel over at a moments notice. This was the end"
+Y "Th-thank you...for the best time of my life....I-I hope I'll get to see you....again....some...day....."
+"Shrek bursts into tears holding you in his arms as the light fades from your eyes, He showed you the best times of your life you will always be thankful for that"
+"True End: My one and Only"
+return
 
 label cringe:
     "You try not to show it, but your face twists into a grimace. He looks hurt."

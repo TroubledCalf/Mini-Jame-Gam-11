@@ -27,6 +27,7 @@ define player_name = ""
 define Y = Character(player_name)
 define B = Character("Drunk Rando")
 define SN = Character("Shrek's Note")
+define F = Character("Furists")
 
 
 #define misc
@@ -38,7 +39,7 @@ label start:
     #opening mailroom
 
     Y "UGHHHHHH"
-    Y "My back hurts"
+    Y "My back hurts."
     "You grumpily waltz over to your locker."
 
     $ player_name = renpy.input("Each locker has a name tag and yours says:")

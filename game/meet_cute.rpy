@@ -94,7 +94,7 @@ label convention:
     "It's like a dream come true."
     #show shrek base
     "While you're in line to meet one of the artists behind Livingpool, you spot a familiar face in line."
-    Y "You confidently walk up to him."
+    "You confidently walk up to him."
 
     if face_paint:
         S "I see you fixed your cosplay."

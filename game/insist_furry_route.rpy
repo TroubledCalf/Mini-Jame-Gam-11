@@ -2,7 +2,7 @@ label insist_furry:
     Y "I want to help you."
     "You lead him over to the couch, and he begins to bawl"
     "He tells you stories of how he met Fiona, the adventures they went on, and the life they had."
-    S "(something sweet about his children)"
+    #S "(something sweet about his children)"
     S "I should have gone with her that fateful day."
 
     menu:

@@ -6,8 +6,8 @@ label strip_club:
     "The two of you walk past the stage and towards the bar."
     "The cosplayer motions for the bartender."
     S "One platter of wings, extra spicy, please."
-    Y "{i}Extra spicy? You can't handle spice!{/i}"
-    Y "{i}Well, you can't handle anything. You're kinda like a widdle baby.{/i}"
+    Y "{i}Extra spicy? I can't handle spice!{/i}"
+    Y "{i}Well, I can't handle anything. I'm kinda like a widdle baby.{/i}"
     Y "I'll have a burger, please."
     S "Oh, and 2 Jack and Cokes, please."
     "He hands his card over to the bartender."
@@ -19,7 +19,7 @@ label strip_club:
             $ hearts -= 1
             S "Eattt."
         "Eat":
-            "You smile and take a big munch from your borger with EXTRA ONIONS"
+            "You smile and take a big munch from your borger with EXTRA ONIONS."
             $ hearts += 1
 
 
@@ -103,7 +103,7 @@ label strip_club:
     "You reach the end of your route, and you stand right in front of some brand new high rise."
     Y "{i}What I would give to live here.{/i}"
     "You head inside and head towards the mailboxes."
-    "You open them all, and a familiar figure. It's Shrek!"
+    "You open them all, and a familiar figure appears. It's Shrek!"
     "You feel your face get hot as he approaches, so you lower your head to hide your blushing."
     #add DIALOGUE here to increase/decrease hearts again
     #He recalls the time he saved a princess with a legendary sword (Totally happened) After meeting you and moving in he recalls his first love “Fiona.” Saying her name put a reminiscent look in his eyes. He shakes it off.
@@ -111,7 +111,7 @@ label strip_club:
     if hearts >= 3:
         S "Are you free?"
         Y "Technically, my shift is over, yeah."
-        S "Well, then some upstairs. I'm cooking dinner."
+        S "Well, then come upstairs. I'm cooking dinner."
         jump apartment_beginning
     else:
         S "Well, it's nice seeing you again!"

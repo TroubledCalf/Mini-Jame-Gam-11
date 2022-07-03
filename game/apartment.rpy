@@ -114,7 +114,7 @@ label apartment_beginning:
     "He's waiting for you in the lobby."
     "You both take the elevator and go to his apartment."
     #show package
-    "You reveal the comically small package, and place it on the kitchen counter."
+    "You reveal the comically small package and place it on the kitchen counter."
     "You both hover over it, and you look up at Shrek expectantly."
     #show sword
     "He opens it slowly and pulls out a long sword."

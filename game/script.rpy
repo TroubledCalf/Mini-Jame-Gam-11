@@ -14,6 +14,7 @@ init python:
 #sound files
 define audio.default_theme = "./audio/Out_n_about.mp3"
 define audio.ogre_tears = "./audio/Ogre_Tears.mp3"
+define audio.alarm = "./audio/alarm_sfx.mp3"
 
 #tracker varibles
 define hearts = 0
@@ -35,11 +36,12 @@ define config.character_callback = beepy_voice
 
 label start:
     stop music
+    pause(1)
     show screen romance_bar
-    #opening mailroom
+    scene mailbox with dissolve
 
-    Y "UGHHHHHH!"
-    Y "My back hurts." with vpunch
+    Y "UGHHHHHH!" with vpunch
+    Y "My back hurts."
     "You grumpily waltz over to your locker."
 
     $ player_name = renpy.input("Each locker has a name tag and yours says:")
@@ -57,6 +59,10 @@ label start:
     menu:
         "Don't bother":
             "You don't get paid enough to hunt down randos."
+            stop music fadeout 1
+            hide screen romance_bar with Dissolve(1)
+            scene blackscreen with Dissolve(2)
+            pause(1)
             "BAD END: Minimum Wage"
             return
         "Find Owner":
@@ -64,6 +70,7 @@ label start:
             "Noone recognizes it, so you place it in your locker to take home after your shift."
 
     "When you finally end your long shift, you head to your \$2 shabby apartment."
+    scene studio with dissolve
     "It's Friday night, so there are a lot of couples out. Living in a large city, you see them all the time, but you can’t help but feel hurt and lonely."
     "You're getting old."
     "Your mother does a good job of reminding you that your window to find love is closing."
@@ -71,12 +78,12 @@ label start:
     "You can hear her scoffing at you even in your flashback."
     "However, there is some glimmer of hope."
     "Tomorrow you have plans; tomorrow you’re going to..."
-    "COMIC CON!!!"
+    "{b}COMIC CON!!!{/b}"
     "Cheered up by this fact, you skip all the way home, ignoring all the judging stares."
 
     show blackscreen with dissolve
     pause(1)
-    #show your apartment
+    scene studio with dissolve
     "You wake up bright and early ready to take on the day."
     "You've spent months procuring the perfect cosplay."
     "It took a lot of green paint. It's heavy, too."

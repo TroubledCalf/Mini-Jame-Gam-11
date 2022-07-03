@@ -94,7 +94,7 @@ label convention:
     "It's like a dream come true."
     #show shrek base
     "While you're in line to meet one of the artists behind Livingpool, you spot a familiar face in line."
-    Y "You confidently walk up to him."
+    "You confidently walk up to him."
 
     if face_paint:
         S "I see you fixed your cosplay."
@@ -168,7 +168,7 @@ label convention:
     Y "{i}What is it about me that makes everyone keep walking away?{/i}"
     "You choke back tears as you turn away and head home."
     "..."
-    #scene apartment
+    #scene shabby_apartment
     "As you lie in your shabby \$2 apartment, you recall the days events."
     "Could it have gone better?"
     "Maybe you could've at the very least made a friend?"
@@ -177,3 +177,4 @@ label convention:
     Y "{i}Just lil' ol' me.{/i}"
     "You can't even bother to clean off the green makeup. You just let the darkness consume you as you drift to sleep."
     "BAD END: Waste of Space (prlly rename that one)"
+    return

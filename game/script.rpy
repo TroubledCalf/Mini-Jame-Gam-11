@@ -13,6 +13,7 @@ init python:
 
 #sound files
 define audio.default_theme = "./audio/Out_n_about.mp3"
+define audio.ogre_tears = "./audio/Ogre_Tears.mp3"
 
 #tracker varibles
 define hearts = 0
@@ -26,21 +27,25 @@ define player_name = ""
 define Y = Character(player_name)
 define B = Character("Drunk Rando")
 define SN = Character("Shrek's Note")
+define F = Character("Furists")
 
 
 #define misc
 define config.character_callback = beepy_voice
 
 label start:
+    stop music
     show screen romance_bar
     #opening mailroom
-    Y "UGHHHHHH"
-    Y "My back hurts"
+
+    Y "UGHHHHHH!"
+    Y "My back hurts."
     "You grumpily waltz over to your locker."
 
     $ player_name = renpy.input("Each locker has a name tag and yours says:")
     $ Y = Character(player_name)
 
+    play music default_theme
     "After changing into your uniform, you head on over to the mailroom."
     "This whole \"mailman\" job is grueling."
     "You have to wake up early every day and lug a heavy bag around New York City."

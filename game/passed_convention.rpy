@@ -101,7 +101,7 @@ label strip_club:
     scene blackscreen with Dissolve(2)
     $ renpy.music.set_pause(True, channel=u'music')
     pause(1)
-    play sound alarm
+    play sound alarm_sfx
     pause(2)
     "You wake up and check your phone."
     "You remember it going off in your dream, so it must've been going off for a while."

@@ -60,7 +60,7 @@ screen romance_bar:
         add "gui/romance_bar_1.png":
             pos (852, 36)
 
-    elif hearts == 5:
+    elif hearts >= 5:
         add "gui/romance_bar_1.png":
             pos (1152, 36)
         add "gui/romance_bar_1.png":
@@ -70,4 +70,15 @@ screen romance_bar:
         add "gui/romance_bar_1.png":
             pos (927, 36)
         add "gui/romance_bar_1.png":
+            pos (852, 36)
+    else:
+        add "gui/romance_bar_0.png":
+            pos (1152, 36)
+        add "gui/romance_bar_0.png":
+            pos (1077, 36)
+        add "gui/romance_bar_0.png":
+            pos (1002, 36)
+        add "gui/romance_bar_0.png":
+            pos (927, 36)
+        add "gui/romance_bar_0.png":
             pos (852, 36)

@@ -14,7 +14,7 @@ init python:
 #sound files
 define audio.default_theme = "./audio/Out_n_about.mp3"
 define audio.ogre_tears = "./audio/Ogre_Tears.mp3"
-define audio.alarm = "./audio/alarm_sfx.mp3"
+define audio.tragedy_of_shrek = "./audio/The_Tragedy_of_Shrek.mp3" 
 
 #tracker varibles
 define hearts = 0

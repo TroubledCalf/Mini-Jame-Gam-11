@@ -66,9 +66,11 @@ label apartment_beginning:
             Y "What's wrong?"
         "Don't push it":
             "Maybe you just imagined it."
+            show shrek_reminisce as shrek_base at exp
             "I can promise you that you didn't, you just don't know how to comfort people since you never talk to anyone, ever."
             "He quietly finished cooking. He plates the food and hands some over to you."
             "Mother said never to take food from strangers, so you eye it suspiciously."
+            show shrek_sad as shrek_base
             S "It's my mother's recipe for skirlie."
             "Bro, you literally just watched him make it, and now you're making him feel bad? Not cool, mailman-kun. Not cool."
             "You've never even had this dish before. You live off ramen and not-so-easy mac. C'mon, man. Live a little."
@@ -79,15 +81,16 @@ label apartment_beginning:
             "..."
             "When you both finish, he grabs your plate and places it in the sink."
             Y "Thank you for the meal!"
-            show shrek_sad as shrek_base at exp
+            show shrek_reminisce as shrek_base
             S "Unfortunately, this is probably the last meal I'll cook for someone while I'm here."
             Y "What do you mean?"
+            show shrek_sad as shrek_base
             S "I'm moving out soon. I think it's time for me to finally return to Scotland. I haven't seen my children in years."
             show shrek_crying as shrek_base at exp
             S "They were grown when I left them, but so much time has passed...I don't even know if they've forgiven me."
             Y "I'll miss you."
             "Before he can respond, you turn around and leave."
-            show shrek_sad as shrek_base at exp
+            show shrek_sad as shrek_base
             hide shrek_base
             pause(1)
             scene blackscreen with dissolve

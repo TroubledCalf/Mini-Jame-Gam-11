@@ -1,5 +1,6 @@
 label good_route:
     "You nod and get up to leave."
+    hide shrek_base
     "On your way out, you notice some sticky notes, so you walk over and grab one."
     "You write your number on the note and place it on his Shrek-sized fridge."
     "God, that fridge is massive."
@@ -8,7 +9,11 @@ label good_route:
     "That night you lie awake waiting for a call."
     "But it never arrives."
     "You slowly drift to sleep, waiting for the next day to begin."
-    scene post_office
+    stop music fadeout(1)
+    scene blackscreen with dissolve
+    pause(1)
+    scene post_office with dissolve
+    play music default_theme
     "The next day just as you head out to deliver today's letters, you get a text from an unknown number."
     Y "{i}It has to be Shrek, right?{/i}"
     "It's Shrek!"
@@ -41,7 +46,7 @@ label good_route:
     show shrek_base as shrek_base at exp
     S "Let me finish you dummy, I'm not upset anymore, cause now I've got you and well after all this...I-I think I love you!!"
     "You don't know what to say, you obviously love him too, but with no way to express it....Ah who am I kidding you kiss him on the lips!! A true sign of affection"
-    "After that day you quit your shitty job amd live with Shrek, he provides for you and makes you the happiest Ex-Mailman alive. You are blessed to have met him"
+    "After that day you quit your shitty job and live with Shrek, he provides for you and makes you the happiest Ex-Mailman alive. You are blessed to have met him"
     stop music fadeout 1
     hide screen romance_bar with Dissolve(1)
     scene blackscreen with Dissolve(2)

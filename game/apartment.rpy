@@ -19,6 +19,7 @@ label apartment_beginning:
             show shrek_laughing as shrek_base at exp
             S "You really think so?"
             Y "Yeah! I love onions!"
+            show shrek_sad as shrek_base
         "Tell him it smells terrible":
             $ hearts -= 1
             Y "Um...could you cook something else? I don't like onions."
@@ -134,6 +135,7 @@ label apartment_beginning:
     "He's waiting for you in the lobby."
     "You both take the elevator and go to his apartment."
     scene shrek_apartment with dissolve
+    show shrek_base at enter_m
     show darken with dissolve
     show package with dissolve:
         align(0.5, 0.5)
@@ -142,11 +144,12 @@ label apartment_beginning:
     "You both hover over it, and you look up at Shrek expectantly."
     show sword with dissolve:
         align(0.5, 0.5)
-    hide darken with dissolve
     "He opens it slowly and pulls out a long sword."
+    "It's alot longer than you thought it would be."
     Y "{i}How did that fit in that tiny box?{/i}"
     hide sword with dissolve
-    show shrek_crying as shrek_base
+    hide darken with dissolve
+    show shrek_crying as shrek_base at exp
     "He inspects the hilt and bursts into tears again."
     S "I-it's the sword. After so many years, I finally have it."
     "He looks up at you and embraces you tenderly."

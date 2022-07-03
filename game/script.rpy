@@ -81,6 +81,7 @@ label start:
     "Excited and proud of your work, you merrily leave your apartment and head towards the subway."
 
     jump train
+    #goes to passed_convention.rpy
 
 
     return

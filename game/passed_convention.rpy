@@ -12,7 +12,7 @@ label strip_club:
     "He hands his card over to the bartender."
     "You happen to notice that it's a black card."
     "ADD MORE DIALOGUE HERE TO DEVELOP THEIR RELATIONSHIP"
-    #have the player blance between eating and talking
+    #have the player blance between eating and talking to give/remove more hearts. still max 3 appear on screen
 
     "After a few more Jack and Cokes, the cosplayer begins slurring his speech a bit."
     "He slams his fist down on the bar, knocking the remaining wings to the floor."
@@ -69,6 +69,62 @@ label strip_club:
     Y "S-same!"
     "You close the door and the car drives off."
     Y "{i}Oh no! I didn't get his number!{/i}"
-    
+    "The car is well out of sight, so you can't chase after him."
+    "Great job, idiot. You blew yet another chance."
+    "Just go home. You pushed your luck even meeting him so take what you can get."
+    "..."
+    #scene apartment
+    "You recollect the days events."
+    "Recalling the real life Shrek in the flesh shirtless makes you blush."
+    "However, you're too drunk to think about it any further and pass out in your bed."
+    #scene black
+    #maybe find an alarm sound effect
+    "You wake up and check your phone."
+    "You remember it going off in your dream, so it must've been going off for a while."
+    #scene apartment
+    "Your eyes focus."
+    Y "I'm late for work!"
+    "You quickly wipe the remaining green face paint you left on from last night and throw on your work clothes."
+    #scene post office
+    "You arrive to work with just a minute to spare."
+    "On your locker theres a note."
+    Character("Locker Note") "Attached is the new mail delivery route you'll be taking. You'll be ending in the Upper East Side. - Boss Man"
+    Y "Ugh. Snooty rich people."
+    "You tear the note off the locker, grab your mail bag, and head out."
+    "You reach the end of your route, and you stand right in front of some brand new high rise."
+    Y "{i}What I would give to live here.{/i}"
+    "You head inside and head towards the mailboxes."
+    "You open them all, and a familiar figure. It's Shrek!"
+    "You feel your face get hot as he approaches, so you lower your head to hide your blushing."
+    #add DIALOGUE here to increase/decrease hearts again
+    #He recalls the time he saved a princess with a legendary sword (Totally happened) After meeting you and moving in he recalls his first love “Fiona.” Saying her name put a reminiscent look in his eyes. He shakes it off.
 
-    return
+    if hearts >= 3:
+        S "Are you free?"
+        Y "Technically, my shift is over, yeah."
+        S "Well, then some upstairs. I'm cooking dinner."
+        jump apartment_beginning
+    else:
+        S "Well, it's nice seeing you again!"
+        Y "Yeah!"
+        Y "I'm done with my shift this was the last delivery."
+        S "That's great to hear! Maybe you could get home and rest up for tomorrow's work."
+        Y "{i}Is he saying I look tired?{/i}"
+        "Ouch. Rejected."
+        "LOL. Sucks for you."
+        "Go home, nerd."
+        Y "Yeah, I'll do that. See you around!"
+        "You wave at him and turn to leave."
+        #scene apartment
+        "When you arrive home from work, you reflect on the conversation you had with Shrek."
+        "You had an opportunity to get to know your idol more, but you blew it."
+        Y "{i}God, can I do anything right?"
+        "You begin to sob."
+        "And sob."
+        "..."
+        "And..."
+        "...sob."
+        "You slowly drift to sleep."
+        "You never wake up."
+        "BAD END: Cry Baby"
+        return

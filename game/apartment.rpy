@@ -97,11 +97,31 @@ label apartment_beginning:
         S "I should have gone with her that day, but instead I was selfish and slept in."
         S "I can't even give her a proper memorial because I lost the sword I used to rescue her years ago."
         "Could that sword have been in that teeny package you found at work? It was signed by a mysterious \"F\" after all."
-        Y "Excuse me. I think I have something that belongs to you."
         #show shrek_base
-        "You race to the post office."
+        Y "Excuse me. I think I have something that belongs to you."
         #scene office
+        "You race to the post office."
         "You get there and check your locker. It's right where you left it!"
         "You snatch the package and race back towards Shrek's apartment."
         #scene nice_apartment
         "He's waiting for you in the lobby."
+        "You both take the elevator and go to his apartment."
+        #show package
+        "You reveal the comically small package, and place it on the kitchen counter."
+        "You both hover over it, and you look up at Shrek expectantly."
+        #show sword
+        "He opens it slowly and pulls out a long sword."
+        Y "{i}How did that fit in that tiny box?{/i}"
+        #show shrek_crying
+        "He inspects the hilt and bursts into tears again."
+        S "I-it's the sword. After so many years, I finally have it."
+        "He looks up at you and embraces you tenderly."
+        S "Thank you."
+        "He pulls away, taking his warmth with him."
+        S "I think I need to be alone right now. I know this is rude after what you've done for me, but could you leave?"
+
+        menu:
+            "Leave":
+                jump good_route
+            "Insist to stay":
+                jump insist_furry

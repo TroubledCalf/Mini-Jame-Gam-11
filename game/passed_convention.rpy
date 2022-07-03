@@ -102,6 +102,8 @@ label strip_club:
     if hearts >= 3:
         S "Are you free?"
         Y "Technically, my shift is over, yeah."
+        S "Well, then some upstairs. I'm cooking dinner."
+        jump apartment_beginning
     else:
         S "Well, it's nice seeing you again!"
         Y "Yeah!"
@@ -111,10 +113,18 @@ label strip_club:
         "Ouch. Rejected."
         "LOL. Sucks for you."
         "Go home, nerd."
-        
-
+        Y "Yeah, I'll do that. See you around!"
+        "You wave at him and turn to leave."
+        #scene apartment
+        "When you arrive home from work, you reflect on the conversation you had with Shrek."
+        "You had an opportunity to get to know your idol more, but you blew it."
+        Y "{i}God, can I do anything right?"
+        "You begin to sob."
+        "And sob."
+        "..."
+        "And..."
+        "...sob."
+        "You slowly drift to sleep."
+        "You never wake up."
+        "BAD END: Cry Baby"
         return
-
-
-
-    return

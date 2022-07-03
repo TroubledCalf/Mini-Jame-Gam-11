@@ -372,7 +372,7 @@ screen main_menu():
         vbox:
             style "main_menu_vbox"
 
-            text "[config.name!t]":
+            text "Shrek Dating Simulator":
                 style "main_menu_title"
 
             text "[config.version]":
@@ -563,7 +563,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nShrek Dating Simulator is a game made for Jame Gam, this game is made by a team of 5 people.\nCoder: Nodel#6969,Expert Soy Boy#0595, and IceIceGhosty#1037\nWriter: Expert Soy Boy#0595, and IceIceGhosty#1037\nArtist: Jerreau#5819, and pasaroll#9096\nComposer: Jerreau#5819\n\nWe hope you had fun playing this little game we made~")
+            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\nShrek Dating Simulator is a game made for Jame Gam, this game is made by a team of 5 people.\nCoder: Nodel#6969,Expert Soy Boy#0595, and IceIceGhosty#1037\nWriter: Expert Soy Boy#0595, and IceIceGhosty#1037\nArtist: J3rre@u, and pasaroll#9096\nComposer: J3rre@u\n\nWe hope you had fun playing this little game we made~")
 
 
 style about_label is gui_label

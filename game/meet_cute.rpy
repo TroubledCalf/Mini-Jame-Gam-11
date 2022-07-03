@@ -168,7 +168,7 @@ label convention:
     Y "{i}What is it about me that makes everyone keep walking away?{/i}"
     "You choke back tears as you turn away and head home."
     "..."
-    #scene apartment
+    #scene shabby_apartment
     "As you lie in your shabby \$2 apartment, you recall the days events."
     "Could it have gone better?"
     "Maybe you could've at the very least made a friend?"

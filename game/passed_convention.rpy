@@ -41,7 +41,7 @@ label strip_club:
         "You swallow your emotions and quickly head home."
         #scene black
         "..."
-        #scene apartment
+        #scene shabby_apartment
         "Lying in your bed that night you reflect on the day's events."
         "It was an adventure hanging out with him."
         "Even though you only knew him for day, your heart longs for him."
@@ -73,7 +73,7 @@ label strip_club:
     "Great job, idiot. You blew yet another chance."
     "Just go home. You pushed your luck even meeting him so take what you can get."
     "..."
-    #scene apartment
+    #scene shabby_apartment
     "You recollect the days events."
     "Recalling the real life Shrek in the flesh shirtless makes you blush."
     "However, you're too drunk to think about it any further and pass out in your bed."
@@ -81,7 +81,7 @@ label strip_club:
     #maybe find an alarm sound effect
     "You wake up and check your phone."
     "You remember it going off in your dream, so it must've been going off for a while."
-    #scene apartment
+    #scene shabby_apartment
     "Your eyes focus."
     Y "I'm late for work!"
     "You quickly wipe the remaining green face paint you left on from last night and throw on your work clothes."
@@ -115,7 +115,7 @@ label strip_club:
         "Go home, nerd."
         Y "Yeah, I'll do that. See you around!"
         "You wave at him and turn to leave."
-        #scene apartment
+        #scene shabby_apartment
         "When you arrive home from work, you reflect on the conversation you had with Shrek."
         "You had an opportunity to get to know your idol more, but you blew it."
         Y "{i}God, can I do anything right?"

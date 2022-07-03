@@ -38,7 +38,7 @@ label start:
     show screen romance_bar
     #opening mailroom
 
-    Y "UGHHHHHH"
+    Y "UGHHHHHH!"
     Y "My back hurts."
     "You grumpily waltz over to your locker."
 
